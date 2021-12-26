@@ -26,5 +26,11 @@
     "less-loader": "^7.0.0",
     "plop": "^3.0.5",
     "postcss-px-to-viewport": "^1.1.1"
+  },
+  "config": {
+    "nuxt": {
+      "host": "127.0.0.1",
+      "port": "3006"
+    }
   }
 }
