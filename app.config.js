@@ -4,6 +4,7 @@
 const appConfig = {
   version: "1.0.0", // app 版本号
   routerWhiteLists: [
+    '/',
     "/home",
     // "/about",
     "/home/home",
