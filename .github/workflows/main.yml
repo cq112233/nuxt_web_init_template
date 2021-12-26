@@ -25,7 +25,7 @@ jobs:
       id: create_release
       uses: actions/create-release@master
       env:
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.NUXTTOKEN }}
       with:
         tag_name: ${{ github.ref }}
         release_name: Release ${{ github.ref }}
