@@ -56,5 +56,5 @@ jobs:
           cd /opt/wwwroot/nuxt-web
           wget https://github.com/cq112233/nuxt_web_init_template/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
-          npm install --production
+          cnpm install --production
           pm2 reload pm2.config.json
