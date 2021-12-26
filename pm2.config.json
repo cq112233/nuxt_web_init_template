@@ -1,8 +1,8 @@
 {
-    "app":[
+    "apps":[
          {
         "name":"a seo vue mobile project",
-        "exec":"npm",
+        "script":"npm",
         "args":"start"
         }
     ]
