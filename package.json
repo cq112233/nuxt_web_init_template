@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-web-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/dayjs": "^1.4.1",
+    "@nuxtjs/proxy": "^2.1.0",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "cookie-universal-nuxt": "^2.1.5",
+    "core-js": "^3.8.3",
+    "echarts": "^5.2.2",
+    "element-ui": "^2.15.0",
+    "nprogress": "^0.2.0",
+    "nuxt": "^2.14.12",
+    "vue-i18n": "^7.3.2"
+  },
+  "devDependencies": {
+    "less": "^4.1.2",
+    "less-loader": "^7.0.0",
+    "plop": "^3.0.5",
+    "postcss-px-to-viewport": "^1.1.1"
+  }
+}
