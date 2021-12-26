@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <!-- <div :style="{ width: '750px', background: 'red' }">111</div> -->
-    <div class="test1">222</div>
+    <div class="test1">222,添加了router</div>
     <h3>首页</h3>
 
     <div>
