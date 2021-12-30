@@ -12,7 +12,10 @@ const initStore = () =>
       app,
     },
     actions: {
-      nuxtServerInit({ commit }, {$dayjs ,app, req }) {
+      nuxtServerInit({ commit },context) {
+        const {$dayjs ,app, req } = context
+        console.log(context,'context');
+        
         // 语言
         let lang = null;
         // 身份鉴权

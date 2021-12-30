@@ -3,7 +3,11 @@ export const LANG = "NUXT_LANG";
 // 这里要兼容 服务器端渲染
 // 设置cookies 中的 token;
 export function setToken(key, value, app = undefined) {
-  process.client ? this.$cookies.set(key, value) : app.$cookies.set(key, value);
+  process.client ? this.$cookies.set(key, value,{
+    maxAge: 60 * 60 * 24 * 7
+  }) : app.$cookies.set(key, value,{
+    maxAge: 60 * 60 * 24 * 7
+  });
 }
 // 获取cookies 中的 token;
 export function getToken(key, app = undefined) {
